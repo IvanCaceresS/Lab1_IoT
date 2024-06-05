@@ -1,0 +1,130 @@
+{
+    "0": {
+        "1": {
+            "upstream_reliability": 0.7777777777777778, 
+            "sync_time_s": 714.0, 
+            "join_time_s": 716.0, 
+            "upstream_num_tx": 18, 
+            "latency_min_s": 5.55, 
+            "upstream_num_lost": 4, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 14, 
+            "latency_avg_s": 7.092142857142856, 
+            "latency_max_s": 9.57, 
+            "latencies": [
+                5.93, 
+                5.63, 
+                8.86, 
+                7.28, 
+                5.66, 
+                9.57, 
+                5.55, 
+                5.65, 
+                7.22, 
+                7.94, 
+                5.88, 
+                8.09, 
+                9.35, 
+                6.68
+            ], 
+            "avg_current_uA": 1155.3975609756098, 
+            "lifetime_AA_years": 0.2787690159428073
+        }, 
+        "2": {
+            "sync_time_s": 475.0, 
+            "join_time_s": null, 
+            "upstream_num_tx": 0, 
+            "upstream_num_lost": 0, 
+            "upstream_num_rx": 0, 
+            "latencies": [], 
+            "avg_current_uA": 1180.4428865979382, 
+            "lifetime_AA_years": 0.27285440469225747
+        }, 
+        "3": {
+            "sync_time_s": null, 
+            "join_time_s": null, 
+            "upstream_num_tx": 0, 
+            "upstream_num_lost": 0, 
+            "upstream_num_rx": 0, 
+            "latencies": [], 
+            "avg_current_uA": null, 
+            "lifetime_AA_years": null
+        }, 
+        "global-stats": {
+            "network_lifetime": [
+                {
+                    "total_capacity_mAh": 2821.5, 
+                    "name": "Network Lifetime", 
+                    "unit": "years", 
+                    "min": 0.27285440469225747
+                }
+            ], 
+            "app-packets-sent": [
+                {
+                    "total": 18, 
+                    "name": "Number of application packets sent"
+                }
+            ], 
+            "joining-time": [
+                {
+                    "name": "Joining Time", 
+                    "min": 71600, 
+                    "max": 71600, 
+                    "99%": 71600.0, 
+                    "unit": "slots", 
+                    "mean": 71600.0
+                }
+            ], 
+            "app_packets_lost": [
+                {
+                    "total": 4, 
+                    "name": "Number of application packets lost"
+                }
+            ], 
+            "current-consumed": [
+                {
+                    "99%": 613562.296, 
+                    "name": "Current Consumed", 
+                    "unit": "mA", 
+                    "mean": 490380.8666666667
+                }
+            ], 
+            "app_packets_received": [
+                {
+                    "total": 14, 
+                    "name": "Number of application packets received"
+                }
+            ], 
+            "e2e-upstream-delivery": [
+                {
+                    "value": 0.7777777777777778, 
+                    "name": "E2E Upstream Delivery Ratio", 
+                    "unit": "%"
+                }, 
+                {
+                    "value": 0.2222222222222222, 
+                    "name": "E2E Upstream Loss Rate", 
+                    "unit": "%"
+                }
+            ], 
+            "e2e-upstream-latency": [
+                {
+                    "name": "E2E Upstream Latency", 
+                    "min": 5.55, 
+                    "max": 9.57, 
+                    "99%": 9.541400000000001, 
+                    "unit": "s", 
+                    "mean": 7.092142857142856
+                }, 
+                {
+                    "name": "E2E Upstream Latency", 
+                    "min": 555.0, 
+                    "max": 957.0, 
+                    "99%": 954.1400000000001, 
+                    "unit": "slots", 
+                    "mean": 709.2142857142856
+                }
+            ]
+        }
+    }
+}

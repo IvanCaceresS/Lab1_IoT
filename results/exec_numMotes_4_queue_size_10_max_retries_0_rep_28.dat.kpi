@@ -1,0 +1,117 @@
+{
+    "0": {
+        "1": {
+            "upstream_reliability": 0.14285714285714285, 
+            "sync_time_s": 976.0, 
+            "join_time_s": 761.0, 
+            "upstream_num_tx": 7, 
+            "latency_min_s": 5.71, 
+            "upstream_num_lost": 6, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 1, 
+            "latency_avg_s": 5.71, 
+            "latency_max_s": 5.71, 
+            "latencies": [
+                5.71
+            ], 
+            "avg_current_uA": null, 
+            "lifetime_AA_years": "N/A"
+        }, 
+        "2": {
+            "sync_time_s": null, 
+            "join_time_s": null, 
+            "upstream_num_tx": 0, 
+            "upstream_num_lost": 0, 
+            "upstream_num_rx": 0, 
+            "latencies": [], 
+            "avg_current_uA": null, 
+            "lifetime_AA_years": null
+        }, 
+        "3": {
+            "sync_time_s": null, 
+            "join_time_s": null, 
+            "upstream_num_tx": 0, 
+            "upstream_num_lost": 0, 
+            "upstream_num_rx": 0, 
+            "latencies": [], 
+            "avg_current_uA": null, 
+            "lifetime_AA_years": null
+        }, 
+        "global-stats": {
+            "network_lifetime": [
+                {
+                    "total_capacity_mAh": 2821.5, 
+                    "name": "Network Lifetime", 
+                    "unit": "years", 
+                    "min": "N/A"
+                }
+            ], 
+            "app-packets-sent": [
+                {
+                    "total": 7, 
+                    "name": "Number of application packets sent"
+                }
+            ], 
+            "joining-time": [
+                {
+                    "name": "Joining Time", 
+                    "min": 76100, 
+                    "max": 76100, 
+                    "99%": 76100.0, 
+                    "unit": "slots", 
+                    "mean": 76100.0
+                }
+            ], 
+            "app_packets_lost": [
+                {
+                    "total": 6, 
+                    "name": "Number of application packets lost"
+                }
+            ], 
+            "current-consumed": [
+                {
+                    "99%": 614558.76, 
+                    "name": "Current Consumed", 
+                    "unit": "mA", 
+                    "mean": 566684.6666666666
+                }
+            ], 
+            "app_packets_received": [
+                {
+                    "total": 1, 
+                    "name": "Number of application packets received"
+                }
+            ], 
+            "e2e-upstream-delivery": [
+                {
+                    "value": 0.1428571428571429, 
+                    "name": "E2E Upstream Delivery Ratio", 
+                    "unit": "%"
+                }, 
+                {
+                    "value": 0.8571428571428571, 
+                    "name": "E2E Upstream Loss Rate", 
+                    "unit": "%"
+                }
+            ], 
+            "e2e-upstream-latency": [
+                {
+                    "name": "E2E Upstream Latency", 
+                    "min": 5.71, 
+                    "max": 5.71, 
+                    "99%": 5.71, 
+                    "unit": "s", 
+                    "mean": 5.71
+                }, 
+                {
+                    "name": "E2E Upstream Latency", 
+                    "min": 571.0, 
+                    "max": 571.0, 
+                    "99%": 571.0, 
+                    "unit": "slots", 
+                    "mean": 571.0
+                }
+            ]
+        }
+    }
+}

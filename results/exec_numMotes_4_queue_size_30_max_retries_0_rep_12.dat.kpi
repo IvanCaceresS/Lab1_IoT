@@ -1,0 +1,128 @@
+{
+    "0": {
+        "1": {
+            "upstream_reliability": 0.5714285714285714, 
+            "sync_time_s": 203.0, 
+            "join_time_s": 205.0, 
+            "upstream_num_tx": 21, 
+            "latency_min_s": 5.0600000000000005, 
+            "upstream_num_lost": 9, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 12, 
+            "latency_avg_s": 5.6225, 
+            "latency_max_s": 6.2700000000000005, 
+            "latencies": [
+                5.19, 
+                5.0600000000000005, 
+                5.54, 
+                5.67, 
+                5.9, 
+                6.2700000000000005, 
+                5.97, 
+                5.18, 
+                5.68, 
+                5.4, 
+                5.8500000000000005, 
+                5.76
+            ], 
+            "avg_current_uA": 284.8369881109644, 
+            "lifetime_AA_years": 1.130783762431913
+        }, 
+        "2": {
+            "sync_time_s": null, 
+            "join_time_s": null, 
+            "upstream_num_tx": 0, 
+            "upstream_num_lost": 0, 
+            "upstream_num_rx": 0, 
+            "latencies": [], 
+            "avg_current_uA": null, 
+            "lifetime_AA_years": null
+        }, 
+        "3": {
+            "sync_time_s": null, 
+            "join_time_s": null, 
+            "upstream_num_tx": 0, 
+            "upstream_num_lost": 0, 
+            "upstream_num_rx": 0, 
+            "latencies": [], 
+            "avg_current_uA": null, 
+            "lifetime_AA_years": null
+        }, 
+        "global-stats": {
+            "network_lifetime": [
+                {
+                    "total_capacity_mAh": 2821.5, 
+                    "name": "Network Lifetime", 
+                    "unit": "years", 
+                    "min": 1.130783762431913
+                }
+            ], 
+            "app-packets-sent": [
+                {
+                    "total": 21, 
+                    "name": "Number of application packets sent"
+                }
+            ], 
+            "joining-time": [
+                {
+                    "name": "Joining Time", 
+                    "min": 20500, 
+                    "max": 20500, 
+                    "99%": 20500.0, 
+                    "unit": "slots", 
+                    "mean": 20500.0
+                }
+            ], 
+            "app_packets_lost": [
+                {
+                    "total": 9, 
+                    "name": "Number of application packets lost"
+                }
+            ], 
+            "current-consumed": [
+                {
+                    "99%": 614590.512, 
+                    "name": "Current Consumed", 
+                    "unit": "mA", 
+                    "mean": 481538.6666666667
+                }
+            ], 
+            "app_packets_received": [
+                {
+                    "total": 12, 
+                    "name": "Number of application packets received"
+                }
+            ], 
+            "e2e-upstream-delivery": [
+                {
+                    "value": 0.5714285714285714, 
+                    "name": "E2E Upstream Delivery Ratio", 
+                    "unit": "%"
+                }, 
+                {
+                    "value": 0.42857142857142855, 
+                    "name": "E2E Upstream Loss Rate", 
+                    "unit": "%"
+                }
+            ], 
+            "e2e-upstream-latency": [
+                {
+                    "name": "E2E Upstream Latency", 
+                    "min": 5.0600000000000005, 
+                    "max": 6.2700000000000005, 
+                    "99%": 6.237, 
+                    "unit": "s", 
+                    "mean": 5.6225
+                }, 
+                {
+                    "name": "E2E Upstream Latency", 
+                    "min": 506.00000000000006, 
+                    "max": 627.0, 
+                    "99%": 623.7, 
+                    "unit": "slots", 
+                    "mean": 562.25
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,197 @@
+{
+    "0": {
+        "1": {
+            "upstream_reliability": 1.0, 
+            "sync_time_s": 187.0, 
+            "join_time_s": 189.0, 
+            "upstream_num_tx": 54, 
+            "latency_min_s": 1.08, 
+            "upstream_num_lost": 0, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 54, 
+            "latency_avg_s": 2.3322222222222218, 
+            "latency_max_s": 6.66, 
+            "latencies": [
+                1.16, 
+                1.7, 
+                2.71, 
+                3.67, 
+                1.96, 
+                1.69, 
+                1.98, 
+                1.12, 
+                1.52, 
+                3.93, 
+                2.88, 
+                1.49, 
+                1.62, 
+                1.85, 
+                1.3, 
+                3.61, 
+                1.92, 
+                1.76, 
+                3.19, 
+                2.5, 
+                1.97, 
+                6.66, 
+                1.28, 
+                1.37, 
+                3.24, 
+                3.37, 
+                2.84, 
+                1.3900000000000001, 
+                1.61, 
+                1.8, 
+                1.44, 
+                5.47, 
+                1.8, 
+                1.31, 
+                3.5700000000000003, 
+                1.68, 
+                5.19, 
+                3.47, 
+                1.76, 
+                2.33, 
+                1.08, 
+                1.93, 
+                2.48, 
+                1.22, 
+                1.61, 
+                1.72, 
+                2.06, 
+                1.44, 
+                1.3, 
+                1.95, 
+                5.98, 
+                2.88, 
+                1.61, 
+                1.57
+            ], 
+            "avg_current_uA": 182.60349288486415, 
+            "lifetime_AA_years": 1.7638711943970053
+        }, 
+        "2": {
+            "upstream_reliability": 0.875, 
+            "sync_time_s": 465.0, 
+            "join_time_s": 470.0, 
+            "upstream_num_tx": 24, 
+            "latency_min_s": 3.34, 
+            "upstream_num_lost": 3, 
+            "avg_hops": 2.0, 
+            "upstream_num_rx": 21, 
+            "latency_avg_s": 7.115714285714285, 
+            "latency_max_s": 17.52, 
+            "latencies": [
+                10.47, 
+                5.8, 
+                7.26, 
+                6.01, 
+                17.52, 
+                8.73, 
+                13.44, 
+                6.97, 
+                4.26, 
+                6.16, 
+                5.75, 
+                5.1000000000000005, 
+                7.41, 
+                3.34, 
+                4.43, 
+                8.81, 
+                5.12, 
+                6.45, 
+                5.51, 
+                4.04, 
+                6.8500000000000005
+            ], 
+            "avg_current_uA": 798.5121212121213, 
+            "lifetime_AA_years": 0.40336149263077853
+        }, 
+        "3": {
+            "sync_time_s": null, 
+            "join_time_s": null, 
+            "upstream_num_tx": 0, 
+            "upstream_num_lost": 0, 
+            "upstream_num_rx": 0, 
+            "latencies": [], 
+            "avg_current_uA": null, 
+            "lifetime_AA_years": null
+        }, 
+        "global-stats": {
+            "network_lifetime": [
+                {
+                    "total_capacity_mAh": 2821.5, 
+                    "name": "Network Lifetime", 
+                    "unit": "years", 
+                    "min": 0.40336149263077853
+                }
+            ], 
+            "app-packets-sent": [
+                {
+                    "total": 78, 
+                    "name": "Number of application packets sent"
+                }
+            ], 
+            "joining-time": [
+                {
+                    "name": "Joining Time", 
+                    "min": 18900, 
+                    "max": 47000, 
+                    "99%": 46719.0, 
+                    "unit": "slots", 
+                    "mean": 32950.0
+                }
+            ], 
+            "app_packets_lost": [
+                {
+                    "total": 3, 
+                    "name": "Number of application packets lost"
+                }
+            ], 
+            "current-consumed": [
+                {
+                    "99%": 610160.1540000001, 
+                    "name": "Current Consumed", 
+                    "unit": "mA", 
+                    "mean": 383653.93333333335
+                }
+            ], 
+            "app_packets_received": [
+                {
+                    "total": 75, 
+                    "name": "Number of application packets received"
+                }
+            ], 
+            "e2e-upstream-delivery": [
+                {
+                    "value": 0.9615384615384616, 
+                    "name": "E2E Upstream Delivery Ratio", 
+                    "unit": "%"
+                }, 
+                {
+                    "value": 0.038461538461538464, 
+                    "name": "E2E Upstream Loss Rate", 
+                    "unit": "%"
+                }
+            ], 
+            "e2e-upstream-latency": [
+                {
+                    "name": "E2E Upstream Latency", 
+                    "min": 1.08, 
+                    "max": 17.52, 
+                    "99%": 14.500800000000021, 
+                    "unit": "s", 
+                    "mean": 3.6716
+                }, 
+                {
+                    "name": "E2E Upstream Latency", 
+                    "min": 108.0, 
+                    "max": 1752.0, 
+                    "99%": 1450.0800000000022, 
+                    "unit": "slots", 
+                    "mean": 367.16
+                }
+            ]
+        }
+    }
+}

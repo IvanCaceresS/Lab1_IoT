@@ -1,0 +1,131 @@
+{
+    "0": {
+        "1": {
+            "upstream_reliability": 0.8823529411764706, 
+            "sync_time_s": 180.70000000000002, 
+            "join_time_s": 182.0, 
+            "upstream_num_tx": 17, 
+            "latency_min_s": 3.74, 
+            "upstream_num_lost": 2, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 15, 
+            "latency_avg_s": 5.099333333333333, 
+            "latency_max_s": 7.24, 
+            "latencies": [
+                6.16, 
+                6.72, 
+                4.16, 
+                3.74, 
+                3.8000000000000003, 
+                6.41, 
+                4.47, 
+                6.09, 
+                4.14, 
+                3.84, 
+                4.13, 
+                5.41, 
+                4.61, 
+                5.57, 
+                7.24
+            ], 
+            "avg_current_uA": 273.1696223659504, 
+            "lifetime_AA_years": 1.1790807422371634
+        }, 
+        "2": {
+            "sync_time_s": 687.5, 
+            "join_time_s": 690.2, 
+            "upstream_num_tx": 0, 
+            "upstream_num_lost": 0, 
+            "upstream_num_rx": 0, 
+            "latencies": [], 
+            "avg_current_uA": null, 
+            "lifetime_AA_years": "N/A"
+        }, 
+        "3": {
+            "sync_time_s": null, 
+            "join_time_s": null, 
+            "upstream_num_tx": 0, 
+            "upstream_num_lost": 0, 
+            "upstream_num_rx": 0, 
+            "latencies": [], 
+            "avg_current_uA": null, 
+            "lifetime_AA_years": null
+        }, 
+        "global-stats": {
+            "network_lifetime": [
+                {
+                    "total_capacity_mAh": 2821.5, 
+                    "name": "Network Lifetime", 
+                    "unit": "years", 
+                    "min": 1.1790807422371634
+                }
+            ], 
+            "app-packets-sent": [
+                {
+                    "total": 17, 
+                    "name": "Number of application packets sent"
+                }
+            ], 
+            "joining-time": [
+                {
+                    "name": "Joining Time", 
+                    "min": 18200, 
+                    "max": 69020, 
+                    "99%": 68511.8, 
+                    "unit": "slots", 
+                    "mean": 43610.0
+                }
+            ], 
+            "app_packets_lost": [
+                {
+                    "total": 2, 
+                    "name": "Number of application packets lost"
+                }
+            ], 
+            "current-consumed": [
+                {
+                    "99%": 422197.528, 
+                    "name": "Current Consumed", 
+                    "unit": "mA", 
+                    "mean": 321609.6666666667
+                }
+            ], 
+            "app_packets_received": [
+                {
+                    "total": 15, 
+                    "name": "Number of application packets received"
+                }
+            ], 
+            "e2e-upstream-delivery": [
+                {
+                    "value": 0.8823529411764706, 
+                    "name": "E2E Upstream Delivery Ratio", 
+                    "unit": "%"
+                }, 
+                {
+                    "value": 0.11764705882352941, 
+                    "name": "E2E Upstream Loss Rate", 
+                    "unit": "%"
+                }
+            ], 
+            "e2e-upstream-latency": [
+                {
+                    "name": "E2E Upstream Latency", 
+                    "min": 3.74, 
+                    "max": 7.24, 
+                    "99%": 7.1672, 
+                    "unit": "s", 
+                    "mean": 5.099333333333333
+                }, 
+                {
+                    "name": "E2E Upstream Latency", 
+                    "min": 374.0, 
+                    "max": 724.0, 
+                    "99%": 716.72, 
+                    "unit": "slots", 
+                    "mean": 509.9333333333333
+                }
+            ]
+        }
+    }
+}

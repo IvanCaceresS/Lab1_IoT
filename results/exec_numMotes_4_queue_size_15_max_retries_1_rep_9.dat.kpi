@@ -1,0 +1,135 @@
+{
+    "0": {
+        "1": {
+            "upstream_reliability": 0.76, 
+            "sync_time_s": 250.0, 
+            "join_time_s": 253.0, 
+            "upstream_num_tx": 25, 
+            "latency_min_s": 5.01, 
+            "upstream_num_lost": 6, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 19, 
+            "latency_avg_s": 6.857368421052631, 
+            "latency_max_s": 11.93, 
+            "latencies": [
+                8.03, 
+                5.8, 
+                5.15, 
+                5.4, 
+                5.82, 
+                5.71, 
+                5.3500000000000005, 
+                8.85, 
+                7.53, 
+                7.95, 
+                5.44, 
+                7.55, 
+                5.07, 
+                11.93, 
+                7.96, 
+                5.83, 
+                6.5200000000000005, 
+                9.39, 
+                5.01
+            ], 
+            "avg_current_uA": 255.3830985915493, 
+            "lifetime_AA_years": 1.2611995189667122
+        }, 
+        "2": {
+            "sync_time_s": 569.0, 
+            "join_time_s": 574.0, 
+            "upstream_num_tx": 14, 
+            "upstream_num_lost": 14, 
+            "upstream_num_rx": 0, 
+            "latencies": [], 
+            "avg_current_uA": 964.17084398977, 
+            "lifetime_AA_years": 0.3340580594234478
+        }, 
+        "3": {
+            "sync_time_s": 760.0, 
+            "join_time_s": null, 
+            "upstream_num_tx": 0, 
+            "upstream_num_lost": 0, 
+            "upstream_num_rx": 0, 
+            "latencies": [], 
+            "avg_current_uA": 2990.9355, 
+            "lifetime_AA_years": 0.10768839418165
+        }, 
+        "global-stats": {
+            "network_lifetime": [
+                {
+                    "total_capacity_mAh": 2821.5, 
+                    "name": "Network Lifetime", 
+                    "unit": "years", 
+                    "min": 0.10768839418165
+                }
+            ], 
+            "app-packets-sent": [
+                {
+                    "total": 39, 
+                    "name": "Number of application packets sent"
+                }
+            ], 
+            "joining-time": [
+                {
+                    "name": "Joining Time", 
+                    "min": 25300, 
+                    "max": 57400, 
+                    "99%": 57079.0, 
+                    "unit": "slots", 
+                    "mean": 41350.0
+                }
+            ], 
+            "app_packets_lost": [
+                {
+                    "total": 20, 
+                    "name": "Number of application packets lost"
+                }
+            ], 
+            "current-consumed": [
+                {
+                    "99%": 593763.174, 
+                    "name": "Current Consumed", 
+                    "unit": "mA", 
+                    "mean": 385499.9666666666
+                }
+            ], 
+            "app_packets_received": [
+                {
+                    "total": 19, 
+                    "name": "Number of application packets received"
+                }
+            ], 
+            "e2e-upstream-delivery": [
+                {
+                    "value": 0.4871794871794872, 
+                    "name": "E2E Upstream Delivery Ratio", 
+                    "unit": "%"
+                }, 
+                {
+                    "value": 0.5128205128205128, 
+                    "name": "E2E Upstream Loss Rate", 
+                    "unit": "%"
+                }
+            ], 
+            "e2e-upstream-latency": [
+                {
+                    "name": "E2E Upstream Latency", 
+                    "min": 5.01, 
+                    "max": 11.93, 
+                    "99%": 11.472800000000001, 
+                    "unit": "s", 
+                    "mean": 6.857368421052631
+                }, 
+                {
+                    "name": "E2E Upstream Latency", 
+                    "min": 500.99999999999994, 
+                    "max": 1193.0, 
+                    "99%": 1147.2800000000002, 
+                    "unit": "slots", 
+                    "mean": 685.7368421052631
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "0": {
+        "1": {
+            "upstream_reliability": 0.9411764705882353, 
+            "sync_time_s": 496.0, 
+            "join_time_s": 503.0, 
+            "upstream_num_tx": 17, 
+            "latency_min_s": 5.07, 
+            "upstream_num_lost": 1, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 16, 
+            "latency_avg_s": 7.5475, 
+            "latency_max_s": 10.63, 
+            "latencies": [
+                7.78, 
+                8.06, 
+                5.08, 
+                7.87, 
+                5.36, 
+                9.3, 
+                7.95, 
+                5.07, 
+                6.5, 
+                10.26, 
+                6.0, 
+                5.9, 
+                7.34, 
+                8.63, 
+                10.63, 
+                9.03
+            ], 
+            "avg_current_uA": 713.1120689655172, 
+            "lifetime_AA_years": 0.45166679279896627
+        }, 
+        "2": {
+            "sync_time_s": 829.0, 
+            "join_time_s": 835.0, 
+            "upstream_num_tx": 2, 
+            "upstream_num_lost": 2, 
+            "upstream_num_rx": 0, 
+            "latencies": [], 
+            "avg_current_uA": 4396.172519083969, 
+            "lifetime_AA_years": 0.07326578738611562
+        }, 
+        "3": {
+            "sync_time_s": null, 
+            "join_time_s": null, 
+            "upstream_num_tx": 0, 
+            "upstream_num_lost": 0, 
+            "upstream_num_rx": 0, 
+            "latencies": [], 
+            "avg_current_uA": null, 
+            "lifetime_AA_years": null
+        }, 
+        "global-stats": {
+            "network_lifetime": [
+                {
+                    "total_capacity_mAh": 2821.5, 
+                    "name": "Network Lifetime", 
+                    "unit": "years", 
+                    "min": 0.07326578738611562
+                }
+            ], 
+            "app-packets-sent": [
+                {
+                    "total": 19, 
+                    "name": "Number of application packets sent"
+                }
+            ], 
+            "joining-time": [
+                {
+                    "name": "Joining Time", 
+                    "min": 50300, 
+                    "max": 83500, 
+                    "99%": 83168.0, 
+                    "unit": "slots", 
+                    "mean": 66900.0
+                }
+            ], 
+            "app_packets_lost": [
+                {
+                    "total": 3, 
+                    "name": "Number of application packets lost"
+                }
+            ], 
+            "current-consumed": [
+                {
+                    "99%": 613645.848, 
+                    "name": "Current Consumed", 
+                    "unit": "mA", 
+                    "mean": 507066.2666666666
+                }
+            ], 
+            "app_packets_received": [
+                {
+                    "total": 16, 
+                    "name": "Number of application packets received"
+                }
+            ], 
+            "e2e-upstream-delivery": [
+                {
+                    "value": 0.8421052631578947, 
+                    "name": "E2E Upstream Delivery Ratio", 
+                    "unit": "%"
+                }, 
+                {
+                    "value": 0.15789473684210525, 
+                    "name": "E2E Upstream Loss Rate", 
+                    "unit": "%"
+                }
+            ], 
+            "e2e-upstream-latency": [
+                {
+                    "name": "E2E Upstream Latency", 
+                    "min": 5.07, 
+                    "max": 10.63, 
+                    "99%": 10.5745, 
+                    "unit": "s", 
+                    "mean": 7.5475
+                }, 
+                {
+                    "name": "E2E Upstream Latency", 
+                    "min": 507.0, 
+                    "max": 1063.0, 
+                    "99%": 1057.45, 
+                    "unit": "slots", 
+                    "mean": 754.75
+                }
+            ]
+        }
+    }
+}

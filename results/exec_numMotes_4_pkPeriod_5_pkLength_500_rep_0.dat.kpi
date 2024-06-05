@@ -1,0 +1,130 @@
+{
+    "0": {
+        "1": {
+            "upstream_reliability": 0.08974358974358974, 
+            "sync_time_s": 212.0, 
+            "join_time_s": 216.0, 
+            "upstream_num_tx": 156, 
+            "latency_min_s": 6.95, 
+            "upstream_num_lost": 142, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 14, 
+            "latency_avg_s": 25.752142857142864, 
+            "latency_max_s": 46.980000000000004, 
+            "latencies": [
+                6.95, 
+                7.91, 
+                9.81, 
+                12.72, 
+                17.93, 
+                20.69, 
+                21.8, 
+                29.76, 
+                31.78, 
+                35.01, 
+                37.77, 
+                40.63, 
+                40.79, 
+                46.980000000000004
+            ], 
+            "avg_current_uA": 230.43649732620324, 
+            "lifetime_AA_years": 1.3977344944622416
+        }, 
+        "2": {
+            "sync_time_s": null, 
+            "join_time_s": null, 
+            "upstream_num_tx": 0, 
+            "upstream_num_lost": 0, 
+            "upstream_num_rx": 0, 
+            "latencies": [], 
+            "avg_current_uA": null, 
+            "lifetime_AA_years": null
+        }, 
+        "3": {
+            "sync_time_s": null, 
+            "join_time_s": null, 
+            "upstream_num_tx": 0, 
+            "upstream_num_lost": 0, 
+            "upstream_num_rx": 0, 
+            "latencies": [], 
+            "avg_current_uA": null, 
+            "lifetime_AA_years": null
+        }, 
+        "global-stats": {
+            "network_lifetime": [
+                {
+                    "total_capacity_mAh": 2821.5, 
+                    "name": "Network Lifetime", 
+                    "unit": "years", 
+                    "min": 1.3977344944622416
+                }
+            ], 
+            "app-packets-sent": [
+                {
+                    "total": 156, 
+                    "name": "Number of application packets sent"
+                }
+            ], 
+            "joining-time": [
+                {
+                    "name": "Joining Time", 
+                    "min": 21600, 
+                    "max": 21600, 
+                    "99%": 21600.0, 
+                    "unit": "slots", 
+                    "mean": 21600.0
+                }
+            ], 
+            "app_packets_lost": [
+                {
+                    "total": 142, 
+                    "name": "Number of application packets lost"
+                }
+            ], 
+            "current-consumed": [
+                {
+                    "99%": 615019.164, 
+                    "name": "Current Consumed", 
+                    "unit": "mA", 
+                    "mean": 467266.10000000003
+                }
+            ], 
+            "app_packets_received": [
+                {
+                    "total": 14, 
+                    "name": "Number of application packets received"
+                }
+            ], 
+            "e2e-upstream-delivery": [
+                {
+                    "value": 0.08974358974358976, 
+                    "name": "E2E Upstream Delivery Ratio", 
+                    "unit": "%"
+                }, 
+                {
+                    "value": 0.9102564102564102, 
+                    "name": "E2E Upstream Loss Rate", 
+                    "unit": "%"
+                }
+            ], 
+            "e2e-upstream-latency": [
+                {
+                    "name": "E2E Upstream Latency", 
+                    "min": 6.95, 
+                    "max": 46.980000000000004, 
+                    "99%": 46.1753, 
+                    "unit": "s", 
+                    "mean": 25.752142857142864
+                }, 
+                {
+                    "name": "E2E Upstream Latency", 
+                    "min": 695.0, 
+                    "max": 4698.0, 
+                    "99%": 4617.53, 
+                    "unit": "slots", 
+                    "mean": 2575.2142857142862
+                }
+            ]
+        }
+    }
+}

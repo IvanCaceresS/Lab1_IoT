@@ -1,0 +1,131 @@
+{
+    "0": {
+        "1": {
+            "upstream_reliability": 0.10869565217391304, 
+            "sync_time_s": 305.0, 
+            "join_time_s": 309.0, 
+            "upstream_num_tx": 138, 
+            "latency_min_s": 12.0, 
+            "upstream_num_lost": 123, 
+            "avg_hops": 1.0, 
+            "upstream_num_rx": 15, 
+            "latency_avg_s": 31.470000000000002, 
+            "latency_max_s": 47.95, 
+            "latencies": [
+                12.0, 
+                14.22, 
+                17.38, 
+                19.25, 
+                20.02, 
+                23.84, 
+                24.69, 
+                39.74, 
+                42.67, 
+                44.67, 
+                47.74, 
+                39.99, 
+                47.95, 
+                41.94, 
+                35.95
+            ], 
+            "avg_current_uA": 347.88427480916033, 
+            "lifetime_AA_years": 0.9258511074482442
+        }, 
+        "2": {
+            "sync_time_s": null, 
+            "join_time_s": null, 
+            "upstream_num_tx": 0, 
+            "upstream_num_lost": 0, 
+            "upstream_num_rx": 0, 
+            "latencies": [], 
+            "avg_current_uA": null, 
+            "lifetime_AA_years": null
+        }, 
+        "3": {
+            "sync_time_s": null, 
+            "join_time_s": null, 
+            "upstream_num_tx": 0, 
+            "upstream_num_lost": 0, 
+            "upstream_num_rx": 0, 
+            "latencies": [], 
+            "avg_current_uA": null, 
+            "lifetime_AA_years": null
+        }, 
+        "global-stats": {
+            "network_lifetime": [
+                {
+                    "total_capacity_mAh": 2821.5, 
+                    "name": "Network Lifetime", 
+                    "unit": "years", 
+                    "min": 0.9258511074482442
+                }
+            ], 
+            "app-packets-sent": [
+                {
+                    "total": 138, 
+                    "name": "Number of application packets sent"
+                }
+            ], 
+            "joining-time": [
+                {
+                    "name": "Joining Time", 
+                    "min": 30900, 
+                    "max": 30900, 
+                    "99%": 30900.0, 
+                    "unit": "slots", 
+                    "mean": 30900.0
+                }
+            ], 
+            "app_packets_lost": [
+                {
+                    "total": 123, 
+                    "name": "Number of application packets lost"
+                }
+            ], 
+            "current-consumed": [
+                {
+                    "99%": 614908.032, 
+                    "name": "Current Consumed", 
+                    "unit": "mA", 
+                    "mean": 485727.5333333334
+                }
+            ], 
+            "app_packets_received": [
+                {
+                    "total": 15, 
+                    "name": "Number of application packets received"
+                }
+            ], 
+            "e2e-upstream-delivery": [
+                {
+                    "value": 0.10869565217391308, 
+                    "name": "E2E Upstream Delivery Ratio", 
+                    "unit": "%"
+                }, 
+                {
+                    "value": 0.8913043478260869, 
+                    "name": "E2E Upstream Loss Rate", 
+                    "unit": "%"
+                }
+            ], 
+            "e2e-upstream-latency": [
+                {
+                    "name": "E2E Upstream Latency", 
+                    "min": 12.0, 
+                    "max": 47.95, 
+                    "99%": 47.9206, 
+                    "unit": "s", 
+                    "mean": 31.470000000000002
+                }, 
+                {
+                    "name": "E2E Upstream Latency", 
+                    "min": 1200.0, 
+                    "max": 4795.0, 
+                    "99%": 4792.0599999999995, 
+                    "unit": "slots", 
+                    "mean": 3147.0
+                }
+            ]
+        }
+    }
+}
